@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Load trained model
 model = pickle.load(open(
-    'C:\\Users\\ali\\PycharmProjects\\PythonProject\\PythonProjectcar_pricce_predict\\LinearRegressionModel.pkl', 'rb'
+    'LinearRegressionModel.pkl', 'rb'
 ))
 
 # Load dataset
